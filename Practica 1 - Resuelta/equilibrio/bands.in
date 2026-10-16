@@ -1,0 +1,4 @@
+&BANDS
+  prefix = 'silicon'
+  filband = 'si.bands.dat'
+/

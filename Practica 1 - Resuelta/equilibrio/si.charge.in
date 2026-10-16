@@ -1,0 +1,17 @@
+&inputpp
+    prefix  = 'silicon'
+    filplot = 'si.charge'
+    plot_num= 0
+ /
+ &plot
+    nfile = 1
+    iflag = 3
+    output_format = 6
+    fileout = 'sirho.dat'
+    x0(1) = 0.0, x0(2) = 0.0, x0(3) = 0.0,  ! punto inicial
+    e1(1) = 1.0, e1(2) = 0.0, e1(3) = 0.0,  ! vector 1 del cubo
+    e2(1) = 0.0, e2(2) = 1.0, e2(3) = 0.0,  ! vector 2 del cubo
+    e3(1) = 0.0, e3(2) = 0.0, e2(3) = 1.0,  ! vector 3 del cubo
+    nx = 200, ny = 200,  nz = 200,
+ /
+

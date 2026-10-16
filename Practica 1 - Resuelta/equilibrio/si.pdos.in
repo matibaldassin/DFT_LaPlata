@@ -1,0 +1,7 @@
+&projwfc
+  outdir='./'
+  prefix='silicon'
+  Emin=-10.0, Emax=15.0,
+  DeltaE=0.1
+  ngauss=1, degauss=0.02
+/

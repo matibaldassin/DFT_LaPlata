@@ -1,0 +1,7 @@
+ &DOS
+    prefix  = 'silicon'
+    Emin = -10.00, Emax = 15.00
+    DeltaE = 0.1,
+    fildos = 'si.dos.dat'
+/
+
